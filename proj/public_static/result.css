@@ -1,0 +1,204 @@
+.head2{
+    background-color: #f1f1f1;
+    padding: 3px;
+    text-align: center;
+   
+}
+body{
+    margin:0;
+    padding: 0;
+   
+}
+
+
+nav ul {
+    background-color:rgb(0, 115, 255);
+   text-align: top;
+  
+  
+  
+}
+nav>ul{
+    height:35px;
+    text-align: center;
+    margin:0;
+    width: 100vh;
+}
+
+
+nav ul a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    line-height: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+  
+}
+
+nav ul li  ul {
+   
+    margin-top:10px;
+    width:100px;
+}
+
+nav ul>li:hover{
+background-color:rgb(66, 66, 160);
+text-decoration:none;
+
+height:19px;
+}
+nav ul a:hover{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+nav ul ul{
+    display: none;
+    padding: 0px;
+    position: absolute;
+    list-style-type:none;
+
+}
+
+nav li:hover ul{
+margin-left: -25px;
+display: block;
+text-decoration: none;
+margin-top: 8px;
+}
+
+nav > ul > li{
+    display:inline-block;
+    padding-top: 8px;
+    padding-left: 35px;
+    padding-bottom: 8px;
+    padding-right: 35px;
+    white-space: nowrap;
+
+}
+nav>ul  {   
+    white-space: nowrap;
+}
+nav  ul  ul  li{
+    left: 60px;
+    font-size:20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.main{
+display: inline-block;
+width: 900px;
+height:900px;
+
+}
+
+
+.mainpara{
+    margin-top:45px; 
+    padding:10px;
+    font-size: 30px;
+    /* background-image:url(http://siriyellowpages.com/admin/listing/1635-1.jpg); */
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   height: 300px;
+  
+
+}
+.my_container{
+    position:relative;
+    overflow:hidden;
+}
+.my_container p{
+    position:relative;
+   padding:50px;
+   text-align:center;
+   z-index:2;
+   color:black;
+   font-weight: 700;
+   line-height: inherit;
+   font-family: 'Raleway', sans-serif;
+}
+.my_container img{
+    position:absolute;
+   z-index:1;
+   width:100%;
+   top:0;
+   left:0;
+   height: 800px;
+   opacity:0.7;
+}
+
+
+
+
+/* On mouse-over, add a deeper shadow */
+
+
+/* Add some padding inside the card container */
+
+.classhead{
+    font-weight: 700;
+    line-height: inherit;
+    font-family: 'Raleway', sans-serif;
+    color: black; 
+    padding:20px;
+}
+.card{
+margin: 10px;
+padding: 10px;
+justify-content: space-around;
+display: flex;
+background-image:url(https://glimageurl.golocall.com/golocal-post/image/22617_1476772302.jpeg);
+   
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.card2{
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    background-image:url(https://previews.123rf.com/images/zinkevych/zinkevych1605/zinkevych160500227/56578258-nice-studying-day-serious-and-concentrated-teacher-explaining-the-rules-to-his-nice-and-intelligent-.jpg);
+   
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    }
+
+    .footer{
+        background-color: black;
+        margin-top:20px;
+        padding:10px;
+        
+    }
+
+    .text-center{
+        color:white;
+        line-height: inherit;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .inner{
+        background-color: white;
+        margin-top:-8px;
+       
+        padding: 10px;
+      
+    }
